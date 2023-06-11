@@ -49,8 +49,8 @@ if (!age){
   // Generate the QR code using a QR code library
   var qrCode = new QRCode(document.getElementById("qrcode"), {
     text: userInfo,
-    width: 512,
-    height: 512,
+    width: 300,
+    height: 300,
   });
 
   // Create a download link for the QR code
