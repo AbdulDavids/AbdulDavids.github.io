@@ -7,7 +7,7 @@ function generateQRCode() {
     var medConditions = document.getElementById("medConditions").value;
     var emergencyContact1 = document.getElementById("emergencyContact1").value;
     var emergencyContact2 = document.getElementById("emergencyContact2").value;
-    var note = document.getElementById("notes").value;
+
   
     // Create user object with the input values
     var userInfo = {
@@ -18,7 +18,7 @@ function generateQRCode() {
       medConditions: medConditions,
       emergencyContact1: emergencyContact1,
       emergencyContact2: emergencyContact2,
-      notes: note
+
     };
   
     // Convert user object to JSON string
