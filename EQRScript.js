@@ -6,7 +6,7 @@ function generateQRCode() {
     var allergies = document.getElementById("allergies").value;
     var medConditions = document.getElementById("medConditions").value;
     var emergencyContact1 = document.getElementById("emergencyContact1").value;
-    var emergencyContact2 = document.getElementById("emergencyContact2").value;
+
 
   
     // Create user object with the input values
@@ -17,7 +17,7 @@ function generateQRCode() {
       allergies: allergies,
       medConditions: medConditions,
       emergencyContact1: emergencyContact1,
-      emergencyContact2: emergencyContact2,
+
 
     };
   
