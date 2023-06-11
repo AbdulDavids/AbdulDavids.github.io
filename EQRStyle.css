@@ -1,0 +1,65 @@
+body {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .container {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form-control {
+    background-color: #555;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .footer a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    color: #fff;
+  }
+  
+  
+  #qrcode-container {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .instructions-container {
+    background-color: #555;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 12%;
+    text-align: center;
+   
+  }
+  
+  .instructions-container h2 {
+    text-align: center;
+  }
+  
