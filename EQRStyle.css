@@ -16,15 +16,33 @@ body {
   }
   
   .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #ff0000;
+    border-color: #555;
+    box-shadow: inset;
+
   }
   
   .btn-primary:hover {
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #555;
+    border-color: #ff0000;
+    color: #ff0000;
+  }
+
+  .btn-secondary {
+    background-color: #002d82;
+    border-color: #555;
+    box-shadow: inset;
+
   }
   
+  .btn-secondary:hover {
+    background-color: #555;
+    border-color: #002d82;
+    color: #002d82;
+  }
+  
+
+
   .footer {
     background-color: #222;
     color: #ccc;
@@ -51,15 +69,51 @@ body {
   .instructions-container {
     background-color: #555;
     border: 1px solid #ddd;
-    border-radius: 5px;
     padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 12%;
-    text-align: center;
-   
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  justify-content: center;
   }
   
   .instructions-container h2 {
     text-align: center;
   }
+
+  .instructions-container h4 {
+    text-align: center;
+    font-weight:lighter
+  }
+
+  .instructions-container h3 {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #qrcode {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    align-items: center;
+  }
   
+  .createNewButton {
+    background-color: #555;
+    border: 1px solid #ddd;
+    padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  
+  }
+
+  a.Create{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+  }
