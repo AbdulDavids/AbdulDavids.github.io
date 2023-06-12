@@ -25,7 +25,7 @@ function loadPatientInfo() {
   medConditions=medConditions.replace(/_/g," ");
 contact=contact.replace(/_/g," ");
 
-if (age == "Unknown"){
+if (age != "Unknown"){
  age = year - age;   
 }
 
