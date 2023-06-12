@@ -73,8 +73,23 @@ if (!age){
 
   // Create a download link for the QR code
   var downloadLink = document.createElement("a");
-  downloadLink.href = patientInfoURL;
-  downloadLink.innerHTML = "Generated Patient File";
+  downloadLink.href = document.getElementById("qrcode").getElementsByTagName("canvas")[0].toDataURL("image/jpeg");
+  downloadLink.download = "qrcode.jpg";
+  downloadLink.innerHTML = "Download QR Code";
   document.getElementById("qrcode-container").appendChild(downloadLink);
+
+
+  var x = document.getElementById("viewprofile");
+  x.style.display = "block";
+
+  document.getElementById("viewprofile").href=patientInfoURL;
 }
+
+
+function prepare(){
+  var x = document.getElementById("viewprofile");
+  x.style.display = "none";
+}
+window.onload = prepare;
+
 
